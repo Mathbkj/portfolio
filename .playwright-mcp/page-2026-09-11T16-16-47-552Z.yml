@@ -1,0 +1,14 @@
+- navigation [ref=f6e3]:
+  - link [ref=f6e4] [cursor=pointer]:
+    - /url: "#"
+    - img "Logo" [ref=f6e5]
+  - list [ref=f6e6]:
+    - listitem [ref=f6e7]:
+      - link "About" [ref=f6e8] [cursor=pointer]:
+        - /url: "#about"
+    - listitem [ref=f6e9]:
+      - link "Projects" [ref=f6e10] [cursor=pointer]:
+        - /url: "#projects"
+    - listitem [ref=f6e11]:
+      - link "Contact" [ref=f6e12] [cursor=pointer]:
+        - /url: "#contact"
