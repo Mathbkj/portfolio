@@ -1,0 +1,423 @@
+- generic [active] [ref=e1]:
+  - navigation:
+    - generic:
+      - generic:
+        - generic:
+          - list:
+            - listitem:
+              - button "Experience" [ref=e2] [cursor=pointer]
+            - listitem:
+              - button "Operation" [ref=e5] [cursor=pointer]
+            - listitem:
+              - button "About" [ref=e8] [cursor=pointer]
+        - link [ref=e11] [cursor=pointer]:
+          - /url: /
+        - generic:
+          - list:
+            - listitem:
+              - link "Rates" [ref=e15] [cursor=pointer]:
+                - /url: /prices
+            - listitem:
+              - link "Enquire" [ref=e18] [cursor=pointer]:
+                - /url: /enquire
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic:
+          - generic:
+            - img "Mist transition"
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - paragraph [ref=e32]: Luxury and adventure in the most remote place on Earth
+            - button "Video preview Watch Film" [ref=e34] [cursor=pointer]:
+              - generic:
+                - img "Video preview"
+              - generic [ref=e35]: Watch Film
+          - heading "Antarctica" [level=1] [ref=e44]
+          - generic:
+            - img "Clouds overlay"
+          - generic:
+            - img "Clouds overlay 2"
+      - generic [ref=e50]:
+        - paragraph [ref=e52]: The Last Continent
+        - heading "Vast, majestic and unimaginably beautiful — setting foot in Antarctica’s fabled interior remains a rare and extraordinary experience." [level=3] [ref=e54]
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: Our Season
+        - paragraph [ref=e64]: Between November and February, during the short polar summer, we fly guests and scientists due south from Cape Town to Antarctica. Limited to just 12 guests each, our camps create an experience that is both intimate and immersive, while a team of over 100 on the ground works around the clock to ensure your safety and comfort, even at the end of the Earth.
+      - heading "Our Trips" [level=3] [ref=e69]
+      - generic [ref=e73]:
+        - link "Baby Penguins & Blue Tunnels Baby Penguins & Blue Tunnels US $75,250 Early Season Witness the Emperor chicks as they take their first steps and explore the ethereal Blue Ice Tunnels." [ref=e74] [cursor=pointer]:
+          - /url: /itineraries/early-emperor-penguins
+          - generic [ref=e75]:
+            - img "Baby Penguins & Blue Tunnels" [ref=e77]
+            - generic [ref=e79]:
+              - heading "Baby Penguins & Blue Tunnels" [level=3] [ref=e81]
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: US $75,250
+                  - generic [ref=e86]: Early Season
+                - paragraph [ref=e87]: Witness the Emperor chicks as they take their first steps and explore the ethereal Blue Ice Tunnels.
+        - link [ref=e88] [cursor=pointer]:
+          - /url: /itineraries/south-pole-emperor-penguins
+          - generic [ref=e89]:
+            - img "South Pole & Penguins" [ref=e91]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "South Pole & Penguins" [level=3]
+                - generic:
+                  - generic: US $115,500
+                  - paragraph: Our most popular itinerary, which includes a journey to the South Pole — visited by fewer than 500 people each year — and a visit to the Emperor Penguin colony.
+        - link [ref=e92] [cursor=pointer]:
+          - /url: /itineraries/south-pole-blue-rivers
+          - generic [ref=e93]:
+            - img "South Pole & Blue Rivers" [ref=e95]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "South Pole & Blue Rivers" [level=3]
+                - generic:
+                  - generic:
+                    - generic: US $115,500
+                    - generic: Late Season
+                  - paragraph: Our newest itinerary. One that combines our signature journey to the South Pole — visited by fewer than 500 people each year — with a visit to Antarctica’s rarely seen Blue Rivers.
+        - link [ref=e96] [cursor=pointer]:
+          - /url: /itineraries/the-long-stay
+          - generic [ref=e97]:
+            - img "The Long Stay" [ref=e99]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "The Long Stay" [level=3]
+                - generic:
+                  - generic:
+                    - generic: US $110,500
+                    - generic: Late Season
+                  - paragraph: Experience both of our main camps — Whichaway and Echo — on our longest itinerary, which includes the South Pole and the incredible Blue Rivers.
+        - link [ref=e100] [cursor=pointer]:
+          - /url: /itineraries/antarctica-in-a-day
+          - generic [ref=e101]:
+            - img "Antarctica in a Day" [ref=e103]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Antarctica in a Day" [level=3]
+                - generic:
+                  - generic:
+                    - generic: US $16,500
+                    - generic: Entire Season
+                  - paragraph: Cape Town to Antarctica and back — descend into an ice cave, rappel down a glacier and toast with champagne in our ice bar during this extraordinary day trip.
+      - generic [ref=e109]:
+        - generic: “
+        - paragraph [ref=e110]: After two decades of White Desert, it still inspires me to bring people into the heart of the most remote continent on Earth. Antarctica cannot help but have a powerful effect on you. It is not just the beauty or unimaginably large landscapes; it is the reconnection to nature in its purest form.
+        - paragraph [ref=e111]: "-"
+        - generic [ref=e112]:
+          - paragraph [ref=e113]: Patrick Woodhead
+          - paragraph [ref=e114]: Co-Founder & CEO
+      - generic [ref=e115]:
+        - img "Final Background" [ref=e119]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - img "Panel 1 Second" [ref=e127]
+            - generic [ref=e128]:
+              - img "Panel 1" [ref=e130]
+              - generic [ref=e132]:
+                - heading "Our Camps" [level=2] [ref=e134]
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: Polar Comfort
+                  - paragraph [ref=e140]: With only six suites per camp, we ensure every trip is high-touch and tailored to each guest. Indulge in meals prepared by gourmet chefs and wines crafted especially for our Antarctic climate. Though slightly different in design, each camp features heated pods, fresh running water, and uninterrupted views of the otherworldly landscape from your bed.
+          - link "Whichaway Whichaway Our original camp, newly reimagined. Rare exposed rock and freshwater lakes — this is a side of Antarctica seldom seen. [ 70º 48’ 00” S, 11º 23’ 00” E ]" [ref=e142] [cursor=pointer]:
+            - /url: /camps/whichaway-camp
+            - generic [ref=e143]:
+              - img "Whichaway" [ref=e145]
+              - generic [ref=e146]:
+                - heading "Whichaway" [level=3] [ref=e147]
+                - paragraph [ref=e148]: Our original camp, newly reimagined. Rare exposed rock and freshwater lakes — this is a side of Antarctica seldom seen.
+                - generic [ref=e149]: "[ 70º 48’ 00” S, 11º 23’ 00” E ]"
+          - link "Echo Echo Inspired by astronauts, used by explorers. As close as you can get to leaving Earth without stepping off the planet. [ 71°32'47\" S, 8°50'11\" E ]" [ref=e151] [cursor=pointer]:
+            - /url: /camps/echo-base
+            - generic [ref=e152]:
+              - img "Echo" [ref=e154]
+              - generic [ref=e155]:
+                - heading "Echo" [level=3] [ref=e156]
+                - paragraph [ref=e157]: Inspired by astronauts, used by explorers. As close as you can get to leaving Earth without stepping off the planet.
+                - generic [ref=e158]: "[ 71°32'47\" S, 8°50'11\" E ]"
+          - link "Explorer Explorer Polar adventure meets chalet-style. True to our expeditionary roots, a rustic and warm base for the South Pole journey. [ 71º 31’ 37” S, 8º 51’ 20” E ]" [ref=e160] [cursor=pointer]:
+            - /url: /camps/explorer-camp
+            - generic [ref=e161]:
+              - img "Explorer" [ref=e163]
+              - generic [ref=e164]:
+                - heading "Explorer" [level=3] [ref=e165]
+                - paragraph [ref=e166]: Polar adventure meets chalet-style. True to our expeditionary roots, a rustic and warm base for the South Pole journey.
+                - generic [ref=e167]: "[ 71º 31’ 37” S, 8º 51’ 20” E ]"
+          - generic [ref=e173]:
+            - img "Quote source" [ref=e175]
+            - generic [ref=e176]:
+              - generic: “
+              - paragraph [ref=e177]: ...the coldest, driest, highest, windiest space on the planet. But its beauty is what will break your heart.
+              - paragraph [ref=e178]: "-"
+              - paragraph [ref=e179]: Stanley Stewart
+        - heading "CPT – WFR" [level=2] [ref=e186]
+        - generic [ref=e187]:
+          - generic:
+            - generic:
+              - img "Mist transition"
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - generic [ref=e193]:
+              - paragraph [ref=e195]: 33º 58' 17" S 18º 36' 13" ECape Town
+              - generic [ref=e196]:
+                - heading "To the End of the Earth" [level=3] [ref=e197]
+                - paragraph [ref=e198]: Soaring over an endless array of icebergs, you'll fly business class aboard an Airbus aircraft and land at our blue ice runway in 24-hours of continuous sunshine.
+              - paragraph [ref=e200]: 71° 31' S, 08° 48' EWolf’s Fang Runway
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - generic [ref=e218]:
+                  - paragraph [ref=e219]: Starting point
+                  - paragraph [ref=e220]: Cape Town, South Africa
+                - paragraph [ref=e222]: SouthAtlanticOcean
+                - paragraph [ref=e224]: Indian Ocean
+                - generic [ref=e225]:
+                  - paragraph [ref=e226]: Wolf’s Fang Runway
+                  - paragraph [ref=e227]: Antarctica
+              - generic:
+                - generic:
+                  - generic:
+                    - generic [ref=e230]:
+                      - generic [ref=e231]:
+                        - paragraph [ref=e232]: Flying time
+                        - heading "05:30 hrs" [level=3] [ref=e233]
+                      - generic [ref=e235]:
+                        - paragraph [ref=e236]: Distance
+                        - heading "4,220 km / 2,610 mi" [level=3] [ref=e237]
+                      - generic [ref=e239]:
+                        - paragraph [ref=e240]: Average summer temp. on ice
+                        - heading "-5°C / 23° F" [level=3] [ref=e241]
+                    - button "Video preview Watch Film" [ref=e245] [cursor=pointer]:
+                      - img "Video preview" [ref=e247]
+                      - generic [ref=e248]: Watch Film
+          - generic [ref=e260]:
+            - heading "Start planning your adventure" [level=3] [ref=e261]
+            - link "Get in touch" [ref=e263] [cursor=pointer]:
+              - /url: /enquire
+    - generic:
+      - generic:
+        - button [ref=e268] [cursor=pointer]:
+          - generic [ref=e271]:
+            - generic [ref=e272]: How it works
+            - generic [ref=e277]: Close
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading "How it works" [level=3]
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "1. Consultation" [level=3]
+                      - paragraph:
+                        - text: An adventure to Antarctica requires a lot of planning and our team can easily guide you through the process. Send us an enquiry or
+                        - link "book a call directly":
+                          - /url: https://meetings-eu1.hubspot.com/meghan-sales/booktime?__hstc=152474470.cd471786c30f3560a5ec3ed9169d561a.1789515577514.1789515577514.1789515577514.1&__hssc=152474470.1.1789515577514&__hsfp=d40dfcd3cca0e735e5a883a03098d646
+                        - text: at your preferred time, with no obligation. We'll talk through the adventures you can expect, your ideal experience and preferred dates, then review availability.
+                  - generic:
+                    - generic:
+                      - heading "2. Confirmation" [level=3]
+                      - paragraph: After you confirm your dates, secured by a deposit, we’ll assist you in completing the necessary forms, such as travel insurance and a medical check completed within 30 days, to ensure your safety on ice.
+                  - generic:
+                    - generic:
+                      - heading "3. Planning" [level=3]
+                      - paragraph: Book flexible flights, arriving in Cape Town at least two days prior to your scheduled Antarctic trip, and departing two days after your arrival, in case of weather delays. Our team can also arrange accommodation, private transfers in our electric BMW fleet, and curated experiences in Cape Town and the Winelands. If you wish to book a safari or explore more of Southern Africa, we are happy to assist.
+                  - generic:
+                    - generic:
+                      - heading "4. On-Boarding" [level=3]
+                      - paragraph: As your departure date approaches, our team will guide you through every necessary step — most importantly, what to pack. You can purchase recommended items through our online Boutique featuring exclusive co-branded polar gear, or have our team prepare a full kit ready for your arrival in Cape Town.
+                  - generic:
+                    - generic:
+                      - heading "5. Safety Briefing" [level=3]
+                      - paragraph: After arriving in Cape Town, our vehicles will transfer you to a safety briefing at our offices at 16 Loop Street, where we will go through the itinerary, updated flight schedule and answer any questions. The team will then check your kit, assist with anything you may have forgotten, and help pack the first polar outfit you’ll need to change into on the flight south.
+                  - generic:
+                    - generic:
+                      - heading "6. Departure" [level=3]
+                      - paragraph: On departure day, our drivers will collect you from your hotel and escort you to the airport, where our team will fast-track you through security and customs. You’ll then head to the lounge before boarding your direct flight to Antarctica.
+  - generic [ref=e283]:
+    - generic [ref=e285]:
+      - generic [ref=e287]:
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - paragraph [ref=e296]: Guests Enquiries
+            - list [ref=e297]:
+              - listitem [ref=e298]:
+                - link "travel@white-desert.com" [ref=e299] [cursor=pointer]:
+                  - /url: mailto:travel@white-desert.com
+              - listitem [ref=e300]:
+                - link "+27 82 572 8582" [ref=e301] [cursor=pointer]:
+                  - /url: tel:+27825728582
+              - listitem [ref=e302]:
+                - link "Schedule a call" [ref=e303] [cursor=pointer]:
+                  - /url: https://meetings-eu1.hubspot.com/meghan-sales/booktime?__hstc=152474470.cd471786c30f3560a5ec3ed9169d561a.1789515577514.1789515577514.1789515577514.1&__hssc=152474470.1.1789515577514&__hsfp=d40dfcd3cca0e735e5a883a03098d646
+          - generic [ref=e304]:
+            - paragraph [ref=e305]: Trade Enquiries
+            - list [ref=e306]:
+              - listitem [ref=e307]:
+                - link "reservations@white-desert.com" [ref=e308] [cursor=pointer]:
+                  - /url: mailto:reservations@white-desert.com
+              - listitem [ref=e309]:
+                - link "+27 64 890 1472" [ref=e310] [cursor=pointer]:
+                  - /url: tel:+27648901472
+          - generic [ref=e311]:
+            - paragraph [ref=e312]: Other Enquiries
+            - list [ref=e313]:
+              - listitem [ref=e314]:
+                - link "press@white-desert.com" [ref=e315] [cursor=pointer]:
+                  - /url: mailto:press@white-desert.com
+              - listitem [ref=e316]:
+                - link "careers@white-desert.com" [ref=e317] [cursor=pointer]:
+                  - /url: mailto:careers@white-desert.com
+              - listitem [ref=e318]:
+                - link "info@white-desert.com" [ref=e319] [cursor=pointer]:
+                  - /url: mailto:info@white-desert.com
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - paragraph [ref=e323]: Itineraries
+            - list [ref=e324]:
+              - listitem [ref=e325]:
+                - link "Baby Penguins & Blue Tunnels" [ref=e326] [cursor=pointer]:
+                  - /url: /itineraries/early-emperor-penguins
+              - listitem [ref=e327]:
+                - link "South Pole & Penguins" [ref=e328] [cursor=pointer]:
+                  - /url: /itineraries/south-pole-emperor-penguins
+              - listitem [ref=e329]:
+                - link "South Pole & Blue Rivers" [ref=e330] [cursor=pointer]:
+                  - /url: /itineraries/south-pole-blue-rivers
+              - listitem [ref=e331]:
+                - link "The Long Stay" [ref=e332] [cursor=pointer]:
+                  - /url: /itineraries/the-long-stay
+              - listitem [ref=e333]:
+                - link "Antarctica in a Day" [ref=e334] [cursor=pointer]:
+                  - /url: /itineraries/antarctica-in-a-day
+              - listitem [ref=e335]:
+                - link "Discovery Week" [ref=e336] [cursor=pointer]:
+                  - /url: /itineraries/discovery-week
+              - listitem [ref=e337]:
+                - link "View All" [ref=e338] [cursor=pointer]:
+                  - /url: /itineraries
+          - generic [ref=e339]:
+            - paragraph [ref=e340]: Camps
+            - list [ref=e341]:
+              - listitem [ref=e342]:
+                - link "Whichaway Camp" [ref=e343] [cursor=pointer]:
+                  - /url: /camps/whichaway-camp
+              - listitem [ref=e344]:
+                - link "Echo Base" [ref=e345] [cursor=pointer]:
+                  - /url: /camps/echo-base
+              - listitem [ref=e346]:
+                - link "Explorer Camp" [ref=e347] [cursor=pointer]:
+                  - /url: /camps/explorer-camp
+              - listitem [ref=e348]:
+                - link "View All" [ref=e349] [cursor=pointer]:
+                  - /url: /camps
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Antarctica
+            - list [ref=e354]:
+              - listitem [ref=e355]:
+                - link "The High Polar Plateau" [ref=e356] [cursor=pointer]:
+                  - /url: /antarctica/polar-plateau
+              - listitem [ref=e357]:
+                - link "Ice Shelf Coast" [ref=e358] [cursor=pointer]:
+                  - /url: /antarctica/fuel-depot
+              - listitem [ref=e359]:
+                - link "Emperor Penguin Ice Fields" [ref=e360] [cursor=pointer]:
+                  - /url: /antarctica/atka-penguin-colony
+              - listitem [ref=e361]:
+                - link "The Mountains" [ref=e362] [cursor=pointer]:
+                  - /url: /antarctica/wolfs-fang-runway-mountains
+              - listitem [ref=e363]:
+                - link "The Rock Oasis" [ref=e364] [cursor=pointer]:
+                  - /url: /antarctica/schirmacher-oasis
+              - listitem [ref=e365]:
+                - link "Aviation" [ref=e366] [cursor=pointer]:
+                  - /url: /antarctica/direct-flights-to-antarctica
+              - listitem [ref=e367]:
+                - link "View All" [ref=e368] [cursor=pointer]:
+                  - /url: /antarctica
+          - generic [ref=e369]:
+            - paragraph [ref=e370]: About
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - link "Founders" [ref=e373] [cursor=pointer]:
+                  - /url: /about/founders
+              - listitem [ref=e374]:
+                - link "Echo Charlie" [ref=e375] [cursor=pointer]:
+                  - /url: https://www.echo-charlie.com/
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: Social
+            - list [ref=e378]:
+              - listitem [ref=e379]:
+                - link "Instagram" [ref=e380] [cursor=pointer]:
+                  - /url: https://www.instagram.com/white.desert.antarctica/
+              - listitem [ref=e381]:
+                - link "LinkedIn" [ref=e382] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/white-desert/
+              - listitem [ref=e383]:
+                - link "Facebook" [ref=e384] [cursor=pointer]:
+                  - /url: https://www.facebook.com/white.desert.antarctica/
+              - listitem [ref=e385]:
+                - link "Youtube" [ref=e386] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCsQXhKIvmcHUkmnpVVjFBzA
+      - generic [ref=e388]:
+        - button "Video preview Watch Film" [ref=e389] [cursor=pointer]:
+          - img "Video preview" [ref=e391]
+          - generic [ref=e392]: Watch Film
+        - generic [ref=e398]:
+          - link "Dates & Rates" [ref=e399] [cursor=pointer]:
+            - /url: /prices
+          - link "Enquire now" [ref=e402] [cursor=pointer]:
+            - /url: /enquire
+        - button "Newsletter Signup" [ref=e405] [cursor=pointer]
+    - generic [ref=e417]:
+      - generic [ref=e423]:
+        - link [ref=e424] [cursor=pointer]:
+          - /url: https://iaato.org/
+          - img "IAATO" [ref=e425]
+        - link [ref=e426] [cursor=pointer]:
+          - /url: https://www.carbonneutral.com/
+          - img "Carbon Neutral" [ref=e427]
+        - link [ref=e428] [cursor=pointer]:
+          - /url: https://www.travelandleisure.com/companies-global-vision-awards-2025-11688323
+          - img "Global Vision Awards" [ref=e429]
+        - link [ref=e430] [cursor=pointer]:
+          - /url: https://www.cntraveler.com/hotels/antarctica/echo
+          - img "Condé Nast" [ref=e431]
+        - link [ref=e432] [cursor=pointer]:
+          - /url: https://www.tripadvisor.com/Hotels-g12-Antarctica-Hotels.html
+          - img "TripAdvisor" [ref=e433]
+        - img "20 Years" [ref=e435]
+      - generic [ref=e436]:
+        - paragraph [ref=e437]: “We all have our own white South”
+        - paragraph [ref=e438]: – Sir Ernest Shackleton
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - link "Website Terms of Use" [ref=e442] [cursor=pointer]:
+            - /url: /legal/website-terms
+          - link "Booking Terms" [ref=e443] [cursor=pointer]:
+            - /url: /legal/booking-terms
+          - link "Privacy Policy" [ref=e444] [cursor=pointer]:
+            - /url: /legal/privacy-policy
+          - link "Cookies Policy" [ref=e445] [cursor=pointer]:
+            - /url: /legal/cookies
+        - generic [ref=e446]:
+          - link "Website by Malvah" [ref=e447] [cursor=pointer]:
+            - /url: https://www.malvah.co/
+          - paragraph [ref=e448]: Whitedesert©2026. All rights reserved.
+  - alert [ref=e453]
+  - generic [ref=e454]:
+    - paragraph [ref=e455]:
+      - text: We use cookies to track website interactions and improve your experience.
+      - link "Cookie Policy." [ref=e456] [cursor=pointer]:
+        - /url: /legal/privacy-policy
+    - generic [ref=e457]:
+      - button "Accept" [ref=e458] [cursor=pointer]
+      - button "Reject" [ref=e460] [cursor=pointer]
