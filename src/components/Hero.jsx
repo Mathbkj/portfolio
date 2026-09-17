@@ -28,6 +28,14 @@ function Hero() {
           And shaping your ideas
         </motion.h1>
       </div>
+      <motion.h1
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="absolute bottom-60 left-20 z-30 max-w-md text-4xl font-bold md:text-5xl"
+      >
+        Into reality
+      </motion.h1>
     </section>
   );
 }
