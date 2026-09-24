@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coke Zero
+* source:	https://sketchfab.com/3d-models/coke-zero-02605900d3ab4b26977b65f0ed0fad5e
+* author:	gguisthau4 (https://sketchfab.com/gguisthau4)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coke Zero" (https://sketchfab.com/3d-models/coke-zero-02605900d3ab4b26977b65f0ed0fad5e) by gguisthau4 (https://sketchfab.com/gguisthau4) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,15 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Creating the best experiences" [level=1] [ref=e6]
+    - heading "And shaping your ideas" [level=1] [ref=e9]
+    - heading "Into reality" [level=1] [ref=e11]
+  - generic [ref=e13]:
+    - heading "Swipe below to reveal the image" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]: ↓
+      - img "Hand-drawn portrait" [ref=e18]
+      - paragraph [ref=e20]: A short introduction goes here, revealed as you scroll. Hover the portrait to ink-reveal the drawing.
+    - generic [ref=e21]:
+      - generic [ref=e22]: Matheus Blaselbauer
+      - link "Let's build something together" [ref=e23] [cursor=pointer]:
+        - /url: mailto:matheusblaselbauer@gmail.com

@@ -1,0 +1,11 @@
+- generic [ref=e4]:
+  - heading "Coca" [level=1] [ref=e5]:
+    - generic [ref=e7]: C
+    - generic [ref=e9]: o
+    - generic [ref=e11]: c
+    - generic [ref=e13]: a
+  - heading "Cola" [level=1] [ref=e18]:
+    - generic [ref=e20]: C
+    - generic [ref=e22]: o
+    - generic [ref=e24]: l
+    - generic [ref=e26]: a

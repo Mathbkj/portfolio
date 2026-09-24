@@ -1,0 +1,11 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - heading "Creating the best experiences" [level=1] [ref=f2e6]
+    - heading "And shaping your ideas" [level=1] [ref=f2e9]
+    - heading "Into reality" [level=1] [ref=f2e11]
+  - generic [ref=f2e13]:
+    - heading "Swipe below to reveal the image" [level=1] [ref=f2e14]
+    - generic [ref=f2e15]:
+      - generic [ref=f2e16]: ↓
+      - img "Hand-drawn portrait" [ref=f2e18]
+      - paragraph [ref=f2e20]: A short introduction goes here, revealed as you scroll. Hover the portrait to ink-reveal the drawing.
