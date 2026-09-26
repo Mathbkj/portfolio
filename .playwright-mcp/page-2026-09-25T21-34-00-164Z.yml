@@ -1,0 +1,20 @@
+- generic [ref=f1e2]:
+  - generic:
+    - heading "Coke" [level=1]:
+      - generic [aria-hidden]:
+        - generic: C
+      - generic [aria-hidden]:
+        - generic: o
+      - generic [aria-hidden]:
+        - generic: k
+      - generic [aria-hidden]:
+        - generic: e
+    - heading "Cola" [level=1]:
+      - generic [aria-hidden]:
+        - generic: C
+      - generic [aria-hidden]:
+        - generic: o
+      - generic [aria-hidden]:
+        - generic: l
+      - generic [aria-hidden]:
+        - generic: a

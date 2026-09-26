@@ -1,0 +1,274 @@
+- generic [ref=e2]:
+  - generic:
+    - heading "Coca" [level=1]:
+      - generic [aria-hidden]:
+        - generic: C
+      - generic [aria-hidden]:
+        - generic: o
+      - generic [aria-hidden]:
+        - generic: c
+      - generic [aria-hidden]:
+        - generic: a
+    - heading "Cola" [level=1]:
+      - generic [aria-hidden]:
+        - generic: C
+      - generic [aria-hidden]:
+        - generic: o
+      - generic [aria-hidden]:
+        - generic: l
+      - generic [aria-hidden]:
+        - generic: a
+  - generic:
+    - generic:
+      - heading "Zero sugar" [level=2]:
+        - generic:
+          - generic [aria-hidden]:
+            - generic: Z
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: r
+          - generic [aria-hidden]:
+            - generic: o
+        - generic:
+          - generic [aria-hidden]:
+            - generic: s
+          - generic [aria-hidden]:
+            - generic: u
+          - generic [aria-hidden]:
+            - generic: g
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: r
+      - paragraph:
+        - generic:
+          - generic [aria-hidden]:
+            - generic: A
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: l
+        - generic:
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: h
+          - generic [aria-hidden]:
+            - generic: e
+        - generic:
+          - generic [aria-hidden]:
+            - generic: i
+          - generic [aria-hidden]:
+            - generic: c
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: "n"
+          - generic [aria-hidden]:
+            - generic: i
+          - generic [aria-hidden]:
+            - generic: c
+        - generic:
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: s
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: ","
+        - generic:
+          - generic [aria-hidden]:
+            - generic: "n"
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: "n"
+          - generic [aria-hidden]:
+            - generic: e
+        - generic:
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: f
+        - generic:
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: h
+          - generic [aria-hidden]:
+            - generic: e
+        - generic:
+          - generic [aria-hidden]:
+            - generic: s
+          - generic [aria-hidden]:
+            - generic: u
+          - generic [aria-hidden]:
+            - generic: g
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: r
+          - generic [aria-hidden]:
+            - generic: .
+    - generic:
+      - heading "Full taste" [level=2]:
+        - generic:
+          - generic [aria-hidden]:
+            - generic: F
+          - generic [aria-hidden]:
+            - generic: u
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: l
+        - generic:
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: s
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: e
+      - paragraph:
+        - generic:
+          - generic [aria-hidden]:
+            - generic: S
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: r
+          - generic [aria-hidden]:
+            - generic: v
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: d
+        - generic:
+          - generic [aria-hidden]:
+            - generic: i
+          - generic [aria-hidden]:
+            - generic: c
+          - generic [aria-hidden]:
+            - generic: e
+        - generic:
+          - generic [aria-hidden]:
+            - generic: c
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: d
+          - generic [aria-hidden]:
+            - generic: ","
+        - generic:
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: v
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: r
+          - generic [aria-hidden]:
+            - generic: "y"
+        - generic:
+          - generic [aria-hidden]:
+            - generic: s
+          - generic [aria-hidden]:
+            - generic: i
+          - generic [aria-hidden]:
+            - generic: "n"
+          - generic [aria-hidden]:
+            - generic: g
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: e
+        - generic:
+          - generic [aria-hidden]:
+            - generic: t
+          - generic [aria-hidden]:
+            - generic: i
+          - generic [aria-hidden]:
+            - generic: m
+          - generic [aria-hidden]:
+            - generic: e
+          - generic [aria-hidden]:
+            - generic: .
+    - generic:
+      - heading "Always ice cold. Always Coca-Cola." [level=2]:
+        - generic:
+          - generic [aria-hidden]:
+            - generic: A
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: w
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: "y"
+          - generic [aria-hidden]:
+            - generic: s
+        - generic:
+          - generic [aria-hidden]:
+            - generic: i
+          - generic [aria-hidden]:
+            - generic: c
+          - generic [aria-hidden]:
+            - generic: e
+        - generic:
+          - generic [aria-hidden]:
+            - generic: c
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: d
+          - generic [aria-hidden]:
+            - generic: .
+        - generic:
+          - generic [aria-hidden]:
+            - generic: A
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: w
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: "y"
+          - generic [aria-hidden]:
+            - generic: s
+        - generic:
+          - generic [aria-hidden]:
+            - generic: C
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: c
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: "-"
+          - generic [aria-hidden]:
+            - generic: C
+          - generic [aria-hidden]:
+            - generic: o
+          - generic [aria-hidden]:
+            - generic: l
+          - generic [aria-hidden]:
+            - generic: a
+          - generic [aria-hidden]:
+            - generic: .
