@@ -20,7 +20,27 @@
   --font-mono: var(--mono);
 }
 
+/* Screens narrower than 9:10, where the 3D can shrinks to fit the width.
+   Keep in sync with CAN_MIN_ASPECT in CokeCan.jsx. */
+@custom-variant narrow (@media (max-aspect-ratio: 9/10));
+/* Short screens, like a phone in landscape. */
+@custom-variant short (@media (max-height: 500px));
+
 :root {
+  /* The can's on-screen scale: the viewport height, or less on narrow screens
+     where the camera pulls back. The can is ~0.74 of this tall, ~0.32 wide. */
+  --can-unit: min(100vh, calc(100vw / 0.9));
+  /* Free space above (and below) the centered can. */
+  --can-gap: calc((100vh - 0.74 * var(--can-unit)) / 2);
+  /* Minimum room the heat section's target box leaves for the HUD above and
+     below it. On short screens the HUD scale moves aside, so it can shrink. */
+  --hud-clear-top: 88px;
+  --hud-clear-bottom: 96px;
+  @media (max-height: 500px) {
+    --hud-clear-top: 12px;
+    --hud-clear-bottom: 12px;
+  }
+
   --text: #6f1712;
   --text-h: #360103;
   --bg: #fff8ff;

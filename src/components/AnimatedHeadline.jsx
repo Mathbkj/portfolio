@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 
-function AnimatedHeadline({ text, className = "", delay = 0, stagger = 0.06 }) {
+// `play` holds the letters below the line until it turns true (e.g. after loading).
+function AnimatedHeadline({ text, className = "", delay = 0, stagger = 0.06, play = true }) {
   return (
     <h1 className={className} style={{ lineHeight: 1 }} aria-label={text}>
       {Array.from(text).map((char, i) => (
@@ -12,7 +13,7 @@ function AnimatedHeadline({ text, className = "", delay = 0, stagger = 0.06 }) {
           <motion.span
             className="inline-block"
             initial={{ y: "110%" }}
-            animate={{ y: 0 }}
+            animate={{ y: play ? 0 : "110%" }}
             transition={{
               duration: 0.7,
               ease: [0.22, 1, 0.36, 1],
