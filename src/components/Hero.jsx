@@ -1,26 +1,34 @@
 import AnimatedHeadline from "./AnimatedHeadline";
-import CokeCan from "./CokeCan";
+import HoverBlend from "./HoverBlend";
+import people from "../assets/people.jpg";
 
-// On narrow screens the words leave the sides of the can: "Coca" is centered
-// in the free space above it, "Cola" in the space below.
-const NARROW_WORD =
-  "narrow:m-0 narrow:left-1/2 narrow:right-auto narrow:-translate-x-1/2 narrow:text-center narrow:text-[length:min(25.5vw,calc(var(--can-gap)*0.8))]!";
-
-function Hero({ ready = true }) {
+function Hero() {
   return (
-    <section className="pointer-events-none relative h-svh w-full overflow-hidden">
-      <AnimatedHeadline
-        text="Coca"
-        play={ready}
-        className={`absolute top-1/2 left-0 whitespace-nowrap -translate-y-1/2 text-left font-bold text-black! text-[length:min(25.5vw,327.81px)]! narrow:top-[calc(var(--can-gap)/2)] ${NARROW_WORD}`}
+    // overflow-x-clip (not overflow-hidden) so the image can extend below the
+    // section, under the CloudSection that overlaps it.
+    <section className="relative isolate flex h-svh w-full shrink-0 items-end justify-center overflow-x-clip pb-8">
+      <img
+        src={people}
+        alt=""
+        className="absolute top-0 left-0 -z-10 h-[140svh] w-full object-cover object-center"
       />
-      <AnimatedHeadline
-        text="Cola"
-        play={ready}
-        delay={0.3}
-        className={`absolute top-1/2 right-10 whitespace-nowrap -translate-y-1/2 text-right font-bold text-black! text-[length:min(25.5vw,327.81px)]! narrow:top-[calc(100%-var(--can-gap)/2)] ${NARROW_WORD}`}
-      />
-      <CokeCan className="pointer-events-none fixed inset-0 z-10" />
+      <HoverBlend className="absolute top-6 left-6 md:top-10 md:left-12">
+        <p className="text-left text-lg font-bold text-white">
+          I build websites that go beyond the screen
+        </p>
+      </HoverBlend>
+      <button
+        type="button"
+        className="absolute top-6 right-6 cursor-pointer rounded-full border-2 border-white px-6 py-2 text-lg font-bold text-white mix-blend-overlay transition-colors duration-300 hover:border-white hover:bg-white hover:text-black hover:mix-blend-normal md:top-10 md:right-12"
+      >
+        Explore
+      </button>
+      <HoverBlend className="relative" radius={220}>
+        <AnimatedHeadline
+          text="Tech"
+          className="m-0! whitespace-nowrap text-center font-bold text-white text-[300px]"
+        />
+      </HoverBlend>
     </section>
   );
 }

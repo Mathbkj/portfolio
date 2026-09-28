@@ -43,7 +43,7 @@
 
   --text: #6f1712;
   --text-h: #360103;
-  --bg: #fff8ff;
+  --bg: #fff;
   --border: rgba(111, 23, 18, 0.25);
   --code-bg: rgba(231, 34, 58, 0.08);
   --accent: #e7223a;
@@ -101,7 +101,6 @@ h2 {
 }
 
 h1 {
-  font-size: 56px;
   letter-spacing: -1.68px;
   margin: 32px 0;
   @media (max-width: 1024px) {
@@ -110,7 +109,6 @@ h1 {
   }
 }
 h2 {
-  font-size: 24px;
   line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
@@ -120,6 +118,29 @@ h2 {
 }
 p {
   margin: 0;
+}
+
+/* Card fan carousel (components/ui/card-fan-carousel.jsx). Heights match the
+   ideal layout heights in getHeightMultiplier, capped at the 70vh budget. */
+.fan-layout {
+  height: min(38rem, 70vh);
+  @media (max-width: 1023px) { height: min(34rem, 70vh); }
+  @media (max-width: 767px) { height: min(28rem, 70vh); }
+  @media (max-width: 639px) { height: min(26rem, 70vh); }
+  @media (max-width: 479px) { height: min(22rem, 70vh); }
+}
+.fan-card {
+  position: absolute;
+  width: 18rem;
+  aspect-ratio: 3 / 4;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transform-origin: 50% 100%;
+  @media (max-width: 1023px) { width: 15rem; }
+  @media (max-width: 767px) { width: 12rem; }
+  @media (max-width: 639px) { width: 10rem; }
+  @media (max-width: 479px) { width: 8rem; }
 }
 
 code,
